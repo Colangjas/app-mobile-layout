@@ -1,0 +1,40 @@
+body {
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container {
+      display: -ms-grid;
+      display: grid;
+      height: 100vh;
+      -ms-grid-rows: auto 1fr auto;
+      grid-template-rows: auto 1fr auto;
+  
+      width: 100%;
+      max-width: 480px;
+    }
+    
+    
+    header {
+      background: lightpink;
+      padding: 1rem;
+    }
+    
+    main {
+      background: coral;
+      padding: 1rem;
+      overflow-y: scroll;
+    }
+    
+    footer {
+      background: wheat;
+      padding: 2rem;
+      text-align: center;
+    }
+    
